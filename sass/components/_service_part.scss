@@ -1,0 +1,106 @@
+#service_part {
+    padding-bottom: 150px;
+
+    .service_slider {
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+
+            li {
+                button {
+                    width: 10px;
+                    height: 10px;
+                    font-size: 0;
+                    background: #e9e9e9;
+                    border: 0;
+                    border: 1px solid #e9e9e9;
+                    margin: 0 5px;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                }
+            }
+            li.slick-active{
+                button{
+                    background: #FD5B2F;
+                    border-color: #FD5B2F;
+                }
+              
+
+            }
+        }
+    }
+
+    .service_text {
+        span {
+            @include fnsty(#FD5B2F, 18px, 600, $poppins);
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            @include fnsty(#000, 52px, 600, $poppins);
+            line-height: 71px;
+            margin-bottom: 50px;
+        }
+
+        p {
+            @include fnsty(#000, 15px, 500, $poppins);
+            line-height: 37px;
+            text-align: left;
+            margin-bottom: 90px;
+        }
+
+        a.youtube_button {
+            // width: 40px;
+            // height: 40px;
+            // line-height: 40px;
+            // text-align: center;
+            // border: 1px solid #FD5B2F;
+            // background: transparent;
+            // color: #FD5B2F;
+            // border-radius: 50%;
+            // -webkit-border-radius: 50%;
+            // -moz-border-radius: 50%;
+            // -ms-border-radius: 50%;
+            // -o-border-radius: 50%;
+            i{
+                font-size: 16px;
+                 width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #FD5B2F;
+            background: transparent;
+            color: #FD5B2F;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            }
+
+        }
+
+        span.space {
+            @include fnsty(#FD5B2F, 16px, 500, $poppins);
+            margin-left: 15px;
+            text-transform: capitalize;
+        }
+
+        a.button {
+            padding: 0 25px;
+            line-height: 60px;
+            @include fnsty(#fff, 16px, 500, $poppins);
+            background: #FD5B2F;
+            margin-right: 50px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+    }
+}

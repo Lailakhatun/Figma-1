@@ -1,0 +1,67 @@
+@import '../mixins/fontStyle';
+@import '../variables/fontFamily';
+
+#menu_part {
+    margin-top: 60px;
+   
+
+    .menu_left {
+        ul {
+            li {
+                a {
+                    @include fnsty(#686C75, 16px, 500, $poppins);
+                    margin-right: 50px;
+                    text-transform: uppercase;
+                }
+                .l_bar{
+                    display: none
+                }
+            }
+        }
+    }
+
+    .menu_right {
+    
+        ul {
+            li {
+                a {
+                    @include fnsty(#686C75, 16px, 500, $poppins);
+                    margin-left: 50px;
+                    text-transform: uppercase;
+
+                }
+            }
+        }
+}
+
+}
+
+
+.manu-fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 black;
+    margin-top: 0 !important;
+    padding: 20px 0;
+    z-index: 999 !important;
+
+    ul {
+        li {
+            a {
+                transition: all linear 0.3s;
+                -moz-transition: all linear 0.3s;
+                -ms-transition: all linear 0.3s;
+                -o-transition: all linear 0.3s;
+                -webkit-transition: all linear 0.3s;
+
+                &:hover {
+                    color: #FD5B2F !important;
+                }
+            }
+        }
+    }
+
+}

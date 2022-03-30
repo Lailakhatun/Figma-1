@@ -1,0 +1,179 @@
+#banner {
+    padding: 120px 0 100px;
+
+    .banner_text {
+        margin-top: 140px;
+
+        .text_head {
+            img {
+                margin-bottom: 5px;
+            }
+
+            h1 {
+                @include fnsty(#000, 58px, 700, $poppins);
+                line-height: 67px;
+                margin-bottom: 70px;
+            }
+        }
+
+        .location {
+            padding: 50px 30px;
+            width: 1000px;
+            background: rgba(243, 243, 243, 0.6);
+            margin-bottom: 30px;
+            position: relative;
+            z-index: 1;
+
+            .city {
+                p {
+                    @include fnsty(#989898, 18px, 400, $poppins);
+                    text-transform: capitalize;
+
+                    i {
+                        color: #989898;
+                        font-size: 16px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            .visit {
+                span {
+                    @include fnsty(#fff, 15px, 400, $poppins);
+                    padding: 15px 20px;
+                    background: #FD5B2F;
+                    text-transform: capitalize;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                }
+            }
+        }
+
+
+        .small_img {
+            .img_main {
+                position: relative;
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+
+
+                .img1 {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 20px;
+                    bottom: 0;
+
+                }
+
+                .img2 {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 40px;
+                    bottom: 0;
+                }
+
+                .img3 {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 60px;
+                    bottom: 0;
+                }
+
+                .img4 {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 80px;
+                    bottom: 0;
+                }
+
+                .img5 {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 100px;
+                    bottom: 0;
+                }
+
+                .img6 {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background: #13DED2;
+                    @include fnsty(#fff, 14px, 400, $poppins);
+                    position: absolute;
+                    left: 120px;
+                    bottom: -2px;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+
+                }
+            }
+        }
+
+
+        .text {
+            p {
+                @include fnsty(#000, 16px, 500, $poppins);
+            }
+        }
+    }
+
+    .banner_image {
+        position: relative;
+
+        .side_img {
+            position: absolute;
+            right: 0px;
+            top: 0;
+
+        }
+
+        .side_img1 {
+            position: absolute;
+            right: -100px;
+            top: 22%;
+
+        }
+
+        .side_img2 {
+            position: absolute;
+            right: -93px;
+            top: 34%;
+
+        }
+
+        .banner_image_text {
+            position: absolute;
+            right: -30px;
+            bottom: 120px;
+
+            h2 {
+                @include fnsty(#dbd5c6,45px,700,$poppins);
+                text-transform: capitalize;
+                transform: rotate(269deg);
+                -ms-transform: rotate(269deg);
+                -o-transform: rotate(269deg);
+                -webkit-transform: rotate(269deg);
+                -moz-transform: rotate(269deg);
+}
+        }
+    }
+}

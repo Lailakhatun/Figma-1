@@ -1,0 +1,38 @@
+
+#benefit{
+    padding-bottom: 150px;
+
+    .heading_text{
+        span {
+            @include fnsty(#FD5B2F, 18px, 600, $poppins);
+            text-transform: uppercase;
+            margin-bottom: 22px;
+        }
+
+        h2 {
+            @include fnsty(#000, 52px, 500, $poppins);
+            line-height: 71px;
+            margin-bottom: 70px;
+        }
+    }
+
+    .benefit_inner_text{
+        i{
+            color:#FD5B2F;
+            font-size: 40px;
+            margin-bottom: 30px
+
+        }
+        h5{
+
+            @include fnsty(#000, 20px, 600, $roboto);
+            text-transform: capitalize;
+            margin-bottom:30px;
+        }
+        p{
+            @include fnsty(#000, 13px, 400, $roboto);
+            line-height: 25px;
+        }
+    }
+
+}
